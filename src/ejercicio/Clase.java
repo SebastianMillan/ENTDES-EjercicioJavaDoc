@@ -5,20 +5,13 @@ package ejercicio;
 
 import java.util.Iterator;
 import java.util.Set;
-
 /**
- * Clase <code>Clase</code> donde se encuentran las caracteristicas de una <code>Clase</code>
- * <p>
- * Esta clase define objetos de tipo <code>Clase</code> donde almacena el nombre de la misma junto a un conjunto
- * de <code>Alumnos</code> que la conforman
- * </p>
- * 
- * @since 1.0
+ * En esta clase <code>Clase</code> tendremos alumnos
  * @version 1.0
+ * @since 1.1
  * @author SebastiánMillán
- * @see java.lang.String
  * @see java.util.Set
- * @see java.util.Iterator
+ * @see java.lang.String
  *
  */
 public class Clase {
@@ -31,12 +24,7 @@ public class Clase {
 	 * La Colección <code>Set</code> llamada lista que almacenará los diferentes Alumnos
 	 */
 	private Set<Alumno> lista;
-	/**
-	 * Constructor para la Clase
-	 * @param nombre el nombre de la clase que se va a crear
-	 * @param lista	la colección que almacenará los Alumnos
-	 * 
-	 */
+
 	public Clase(String nombre, Set<Alumno> lista) {
 		super();
 		this.nombre = nombre;
@@ -51,7 +39,7 @@ public class Clase {
 	}
 	/**
 	 * Método que modifica el nombre de la clase por un nombre pasado como parámetro.
-	 * @param nombre
+	 * @param nombre El nuevo para ser sustituido
 	 */
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
@@ -65,7 +53,7 @@ public class Clase {
 	}
 	/**
 	 * Método que modifica la Colección tipo <code>Set</code> por otra igual pasada como parámetro
-	 * @param lista
+	 * @param lista La nueva que será sustituida
 	 */
 	public void setLista(Set<Alumno> lista) {
 		this.lista = lista;
@@ -90,7 +78,7 @@ public class Clase {
 		}
 	}
 	/**
-	 * Método que imprime mediante un iterator los diferentes Alumnos de la Clase
+	 * Método que imprime Alumnos mediante un Iterator
 	 */
 	public void imprimirAlumnosV2() {
 		int contador=0;
@@ -113,8 +101,8 @@ public class Clase {
 		return notaTotal/lista.size();
 	}
 	/**
-	 * Método que recorre la colección y contabiliza el número de Alumnos suspensos
-	 * @return el número de suspensos de la Clase
+	 * Calcula el número de suspensos
+	 * @return número de suspensos
 	 */
 	public int calcularNumSusp() {
 		int numSusp=0;

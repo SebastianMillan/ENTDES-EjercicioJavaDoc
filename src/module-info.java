@@ -6,7 +6,7 @@
  * @author SebastiánMillán
  *
  */
-module EntornoJavaDoc {
+module ProyectoEntornoJavadoc {
 	exports ejercicio;
 	exports utilidades;
 }
