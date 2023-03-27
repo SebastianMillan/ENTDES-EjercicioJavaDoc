@@ -1,9 +1,12 @@
 /**
- * 
+ * Licencia Master&Commander
  */
 /**
- * @author Admin
+ * Módulo donde se encuentran los paquetes del proyecto de Entorno de JavaDoc
+ * @author SebastiánMillán
  *
  */
 module EntornoJavaDoc {
+	exports ejercicio;
+	exports utilidades;
 }

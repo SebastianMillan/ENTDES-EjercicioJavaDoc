@@ -7,8 +7,11 @@ import java.util.Iterator;
 import java.util.Set;
 
 /**
- * Esta clase define objetos de tipo {@code Clase} donde almacena el nombre de la misma junto a un conjunto
- * de {@code Alumnos} que la conforman
+ * Clase <code>Clase</code> donde se encuentran las caracteristicas de una <code>Clase</code>
+ * <p>
+ * Esta clase define objetos de tipo <code>Clase</code> donde almacena el nombre de la misma junto a un conjunto
+ * de <code>Alumnos</code> que la conforman
+ * </p>
  * 
  * @since 1.0
  * @version 1.0
@@ -25,7 +28,7 @@ public class Clase {
 	 */
 	private String nombre;
 	/**
-	 * La Colección {@code Set} llamada lista que almacenará los diferentes Alumnos
+	 * La Colección <code>Set</code> llamada lista que almacenará los diferentes Alumnos
 	 */
 	private Set<Alumno> lista;
 	/**
@@ -54,14 +57,14 @@ public class Clase {
 		this.nombre = nombre;
 	}
 	/**
-	 * Método que devuelve la Colección tipo {@code Set} de Alumnos
+	 * Método que devuelve la Colección tipo <code>Set</code> de Alumnos
 	 * @return la colección de Alumnos
 	 */
 	public Set<Alumno> getLista() {
 		return lista;
 	}
 	/**
-	 * Método que modifica la Colección tipo {@code Set} por otra igual pasada como parámetro
+	 * Método que modifica la Colección tipo <code>Set</code> por otra igual pasada como parámetro
 	 * @param lista
 	 */
 	public void setLista(Set<Alumno> lista) {

@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 import utilidades.Leer;
 /**
- * Clase Principal en la cuál se ejecutan los diferentes métodos vistos en la Clase {@code Clase}
+ * Clase Principal en la cuál se ejecutan los diferentes métodos vistos en la clase <code>Clase</code> 
  * @since 1.0
  * @version 1.0
  * @author SebastiánMillán
